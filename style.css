@@ -6,6 +6,7 @@ body{
     display: flex;
     background-color: #302f2f;
     margin: 0;
+    font-family: sans-serif;
 }
 #menu li{
     color: white;
