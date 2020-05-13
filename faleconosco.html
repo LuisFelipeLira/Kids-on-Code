@@ -2,7 +2,6 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-
     <title>Formulário</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="faleconosco.css">
@@ -15,22 +14,19 @@
                 <img src="Imagens/LOGO.png" width="50" height="50">
                 <li>Kids on Code</li>
                 <li><a class="menuitems" href="index.html">    Home   </a></li>
-                <li><a class="menuitems" href="login.html">   Login   </a></li>
-                <li><a class="menuitems" href="Cadastro.html">Cadastro</a> </li>
+                <li><a class="menuitems" href="faleconosco.html">Fale conosco</a> </li>
                 <li><a class="menuitems" href="https://www.instagram.com/kidsnocode/?hl=pt-br" target="_blank">       Instagram    </a></li>
         </ul>
             </nav>  
 <div class="cadastro">
         <div class="box">
-                <h2>Cadastre-se Aqui!</h2>
+                <h2>Fale conosco!</h2>
                 <form name="cadastro" id="cad" action="https://formspree.io/xnqbenev" method="POST">
-                        <input type="text" name="message" id="name" placeholder="Primeiro Nome"required >        
-                        <input type="text" name="message" id="surname" placeholder="Sobrenome"required >
-                        <input type="text" name="_replyto" id="email" placeholder="Email de cadastro" required>       
-                        <input type="password" name="message" id="senha" placeholder="Sua Senha"required>
-                        <input type="password" name="message" id="confirmarsenha" placeholder="Confirme sua Senha"required> 
-                        <button id="enviar" onclick="window.location.href='index.html';alert('Obrigado pelo cadastro.')">Enviar</button>
-                        <a class="jpc" href="login.html">Já possui Cadastro? Clique aqui!</a>
+                        <input type="text" name="message" id="name" placeholder="Nome"required >       
+                        <input type="text" name="_replyto" id="email" placeholder="Email de contato" required>       
+                        <textarea type="text" name="message" id="surname" class="mensagem" placeholder="Envie-nos uma mensagem"required cols="30" rows="10"></textarea>
+                        <button id="enviar" onclick="window.location.href='index.html';alert('Obrigado pelo colaboração.')">Enviar</button>
+                        <a class="jpc" href="login.html">Volte ao Início!</a>
                 </form>
         </div>
 </div>  
