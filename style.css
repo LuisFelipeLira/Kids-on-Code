@@ -1,7 +1,6 @@
 body{
     margin: 0;
-    height: 100vmin;
-    width: 100vmin;
+    
 }
 #menu{
     display: flex;
