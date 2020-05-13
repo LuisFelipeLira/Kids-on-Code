@@ -69,9 +69,10 @@ article{
         display: block;
         padding: 5px;}
 #menu{
-    display: flex;
+    display: block;
     background-color: #302f2f;
     margin: 0;}
+
 }
 
 .imagemprojeto3 {
