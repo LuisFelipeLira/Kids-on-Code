@@ -69,6 +69,8 @@ article{
         text-decoration: none;
         display: block;
         text-align: center;
+        padding: 20px;
+        font-size: 50px;
 }
 #menu{
     display: block;
