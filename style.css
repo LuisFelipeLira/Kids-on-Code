@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    width: 100%;
     
 }
 #menu{
@@ -73,9 +74,6 @@ article{
     background-color: #302f2f;
     margin: 0;}
     
-    #menu li{
-        padding: 23px;
-        font-size: large;   
 }
 
 .imagemprojeto3 {
@@ -92,7 +90,6 @@ footer{
     clear: both;
       background-color:#0A91AB;
       height:50px;
-      width: 100%;
       text-align:center;
       padding:10px ;
   }
