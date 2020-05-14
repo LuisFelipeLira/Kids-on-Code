@@ -2,6 +2,7 @@ body{
     margin: 0;
     height: 100vmax;
     width: 100vmax;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 #menu{
     display: flex;
@@ -14,6 +15,7 @@ body{
     text-decoration: none;
     display: block;
     padding: 15px;
+    padding-left: 80px;
 }
 #menu li:first-child{
     margin-right: auto;
@@ -56,7 +58,7 @@ article{
 @media (max-width: 800px)
  {
 #Title{
-    font-size: 50px;
+    font-size: 90px;
     }
     footer{
           clear: both;
@@ -76,10 +78,8 @@ article{
     display: block;
     background-color: #302f2f;
     margin: 0;
+}  
 }
-    
-}
-
 .imagemprojeto3 {
     margin: 0;
     width: 30vw;
