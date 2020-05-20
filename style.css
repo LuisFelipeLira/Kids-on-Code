@@ -34,6 +34,7 @@ body{
     margin: 0;
     width: 30vw;
     height: 20vw;
+    height: 340px;
     
 }
 .description{
@@ -65,7 +66,8 @@ article{
           background-color:#0A91AB;
           height:100px;
           text-align:center;
-          padding:10px ;}
+          padding:10px ;
+        }
       #menu li{
         color: white;
         text-decoration: none;
@@ -84,11 +86,14 @@ article{
     margin: 0;
     width: 30vw;
     height: 20vw;
+    height: 400px;
+    position: relative;
+    top: 50%;
 }
 .imagemprojeto4 {
     margin: 0;
     width: 30vw;
-    height: vw;
+    height: 450px;
 }
 footer{
     clear: both;
@@ -97,3 +102,19 @@ footer{
       text-align:center;
       padding:10px ;
   }
+
+#logo{
+    padding-left: 30px;
+}
+#flexi{
+    display: flex;
+}
+video{
+    padding-top: 60px;
+    display: block;
+}
+}
+div.videotext{
+    display: flex;
+}
+
