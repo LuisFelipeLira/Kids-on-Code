@@ -37,6 +37,7 @@ article{
 }
 @media (max-width: 800px)
 {
+
     #Title{
         font-size: 90px;}
 
@@ -68,8 +69,6 @@ article{
         position: relative;
         left: 10px;  
         }    
-
-
 }
 .imagemprojeto3 {
     margin: 0;
@@ -101,7 +100,7 @@ video{
     padding-top: 50px;
     display: flex;
     position: relative;
-    left: 350px;  
+    left: 600px;  
 }
 div.videotext{
     display: flex;
